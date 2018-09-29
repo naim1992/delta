@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>com.octest.servlets.Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Plat</servlet-name>
+    <servlet-class>com.octest.servlets.Plat</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Plat</servlet-name>
+    <url-pattern>/plat</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Dessert</servlet-name>
+    <servlet-class>com.octest.servlets.Dessert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dessert</servlet-name>
+    <url-pattern>/dessert</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Boisson</servlet-name>
+    <servlet-class>com.octest.servlets.Boisson</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Boisson</servlet-name>
+    <url-pattern>/boisson</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Entree</servlet-name>
+    <servlet-class>com.octest.servlets.Entree</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entree</servlet-name>
+    <url-pattern>/entree</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Salade</servlet-name>
+    <servlet-class>com.octest.servlets.Salade</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salade</servlet-name>
+    <url-pattern>/salade</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
